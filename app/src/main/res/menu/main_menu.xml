@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_settings"
+        android:title="settings"
+        android:icon = "@drawable/ic_settings"
+        app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/menu_save"
+            android:title="save"/>
+
+        <item
+            android:id="@+id/menu_open"
+            android:title="open"/>
+
+    </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_move"
+        android:title="move">
+        <menu>
+            <item
+                android:id="@+id/menu_forward"
+                android:title="forward"/>
+
+            <item
+                android:id="@+id/menu_back"
+                android:title="back"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="delete"/>
+
+
+
+
+
+
+</menu>
